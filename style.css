@@ -1,0 +1,159 @@
+body {
+  background-color: powderblue;
+  margin: 1em auto;
+  width: 800px;
+}
+
+a:link,
+a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+a: hover,
+a:active {
+  background-color: grey;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 60px 20px;
+}
+
+.header a {
+  float: left;
+  color: navy;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header a:hover {
+  background-color: silver;
+  color: navy;
+}
+
+.header a.active {
+  background-color: teal;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-right {
+  float: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+h1 {
+  color: navy;
+  display: flex;
+  justify-content: center;
+  font: bold;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px 0 50px 0;
+}
+
+h2 {
+  color: teal;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 0 30px 0;
+}
+
+#texte {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  font: bold;
+  font-size: 1.2em;
+}
+
+#section1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font: bold;
+  font-size: 1.2em;
+}
+
+#section2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px 0 50px 0;
+  font: bold;
+  font-size: 1.2em;
+}
+
+#profil {
+  display: flex;
+  justify-content: center;
+}
+
+#logos {
+  display: flex;
+  align-items: baseline;
+}
+
+#formulaire {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  background-color: darkgray;
+  width: 80%;
+  float: center;
+  padding: 3%;
+  letter-spacing: 1px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+#contact {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
