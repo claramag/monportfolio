@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mon Portfolio</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+    </style>
+  </head>
+</html>
+
+<div id="contact">
+  <h1>Me contacter</h1> 
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<form method="contact" action="envoiForm.js">
+  <div id="formulaire">
+    <label for="nom">NOM</label>
+    <input
+      type="text"
+      name="nom"
+      id="nom"
+      required
+      autofocus
+      placeholder="écrire ici"
+    />
+    <label for="prénom">Prénom</label>
+    <input type="text" name="prénom" id="prénom" required />
+    <label for="email">Email</label>
+    <input type="email" namme="Adresse email" id="email" />
+    <label for="Message">Message</label>
+    <input type="text" name="Message" id="Message" required />
+    <input type="reset" value="Remettre à zéro" />
+    <input type="submit" value="Envoyer" />
+  </div>
+</form>
